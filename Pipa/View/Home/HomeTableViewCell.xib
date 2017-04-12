@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="msgCell" rowHeight="49" id="KGk-i7-Jjw" customClass="HomeTableViewCell" customModule="Pipa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="48"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0OT-FB-dOc">
+                        <rect key="frame" x="50" y="8" width="221" height="32"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TOUXIAN" translatesAutoresizingMaskIntoConstraints="NO" id="xRa-pK-Teq">
+                        <rect key="frame" x="8" y="8" width="35" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="3LZ-Cj-Mb2"/>
+                            <constraint firstAttribute="width" constant="35" id="yZ6-Zs-MM2"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="黑木" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lzm-Le-yFn">
+                        <rect key="frame" x="60" y="15" width="200" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="xRa-pK-Teq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="6UD-QD-jPn"/>
+                    <constraint firstAttribute="bottom" secondItem="Lzm-Le-yFn" secondAttribute="bottom" constant="16" id="8hr-tL-AIF"/>
+                    <constraint firstItem="0OT-FB-dOc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="IX5-y8-eSB"/>
+                    <constraint firstItem="Lzm-Le-yFn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="KyO-vH-mbN"/>
+                    <constraint firstItem="0OT-FB-dOc" firstAttribute="leading" secondItem="xRa-pK-Teq" secondAttribute="trailing" constant="7" id="MuV-Cc-EF9"/>
+                    <constraint firstAttribute="bottom" secondItem="0OT-FB-dOc" secondAttribute="bottom" constant="8" id="O3c-Ko-c9L"/>
+                    <constraint firstAttribute="trailing" secondItem="Lzm-Le-yFn" secondAttribute="trailing" constant="60" id="Ybq-fE-0S6"/>
+                    <constraint firstItem="Lzm-Le-yFn" firstAttribute="leading" secondItem="xRa-pK-Teq" secondAttribute="trailing" constant="17" id="bkN-pd-r8w"/>
+                    <constraint firstItem="xRa-pK-Teq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="j2E-Ku-aEO"/>
+                    <constraint firstAttribute="trailing" secondItem="0OT-FB-dOc" secondAttribute="trailing" constant="49" id="oVB-7U-KXo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="heimuHeadImageView" destination="xRa-pK-Teq" id="qHl-cJ-en3"/>
+                <outlet property="heimuMessageLabel" destination="Lzm-Le-yFn" id="d7I-uS-Asv"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="109.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="TOUXIAN" width="44" height="44"/>
+    </resources>
+</document>

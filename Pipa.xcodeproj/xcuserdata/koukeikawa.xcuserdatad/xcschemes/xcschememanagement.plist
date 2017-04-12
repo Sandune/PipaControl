@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pipa.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>PipaNotifi copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5A481ACF1E1CFA5B00A29DA5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A5791861E4B0257008DCD00</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A5791A31E4B15F0008DCD00</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A84C80F1DF6AFA000DD5F05</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5ACA59F51E4B1D9B001E31F7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
